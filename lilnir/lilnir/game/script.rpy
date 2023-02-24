@@ -1,7 +1,9 @@
 ﻿# Вы можете расположить сценарий своей игры в этом файле.
 
 # Определение персонажей игры.
-define e = Character('Эйлин', color="#c8ffc8")
+define l = Character('Лилит', color="#b6293c")
+define f = Character('Фавнир', color="#2989b6")
+define a = Character('???', color="#495f69")
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
@@ -14,6 +16,8 @@ label start:
     scene bg room
 
     show eileen happy
+
+    'Не'
 
     e "Вы создали новую игру Ren'Py."
 
