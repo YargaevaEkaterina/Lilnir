@@ -2,3 +2,5 @@
 /game/cache/
 *.save
 log.txt
+shaders.txt
+persistent.txt
